@@ -53,7 +53,8 @@ Finally, with the configuration file in place, Kubernetes has everything to depl
 In this demo, we will deploy a **Spring Boot** application using Docker and Kubernetes with **MySQL** as the database management system. A **Dockerfile** is created to build the image of the application and then used to deploy the application on a Kubernetes cluster.
 
 ### Clone the Github Repository
-Let's start by cloning the project from the [github repository](https://github.com/numerica-ideas/community):
+Let's start by cloning the project from the [github repository]():
+
 ```
 git clone https://github.com/numerica-ideas/community
 ```
@@ -231,17 +232,7 @@ spring.datasource.password=${DB_PASSWORD}
 
 For a production grade application, the way to provide these variables could differ but the general idea remains passing them to the App.
 
-The complete source code of the project is available on [GitHub](https://github.com/numerica-ideas/community/tree/master/kubernetes/springboot-docker-kubernetes-setup).
-
-———————
-
-We have just started our journey to build a network of professionals to grow even more our free knowledge-sharing community that’ll give you a chance to learn interesting things about topics like cloud computing, software development, and software architectures while keeping the door open to more opportunities.
-
-Does this speak to you? If **YES**, feel free to [Join our Discord Server](https://discord.numericaideas.com) to stay in touch with the community and be part of independently organized events.
-
-———————
+The complete source code of the project is available on [GitHub]().
 
 ## Conclusion
 To summarize, Docker and Kubernetes are incredibly powerful and flexible tools for deploying containerized applications in clusters. Using these two tools together makes it possible to deploy applications efficiently, reliably, and in a productive manner by taking advantage of Docker's isolation and Kubernetes' clusters management. Having a good understanding of both in terms of features/concepts is a must to put them in a perfect symbiose.
-
-Thanks for reading this article, recommend and share if you enjoyed it. Follow us on [Facebook](https://www.facebook.com/numericaideas), [Twitter](https://twitter.com/numericaideas), and [LinkedIn](https://www.linkedin.com/company/numericaideas) for more content.
